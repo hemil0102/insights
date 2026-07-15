@@ -1,0 +1,48 @@
+name: Generate posts.json
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Topics/**'
+      - '.github/workflows/generate-posts.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate posts.json
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          ROOT = 'Topics'
+          posts = []
+          for root, dirs, files in os.walk(ROOT):
+              for f in files:
+                  if f.lower().endswith('.md'):
+                      path = os.path.join(root, f).replace(os.sep, '/')
+                      rel = path[len(ROOT) + 1:]
+                      parts = rel.split('/')
+                      category = parts[0] if len(parts) > 1 else '기타'
+                      posts.append({
+                          'path': path,
+                          'title': f[:-3],
+                          'category': category,
+                      })
+          posts.sort(key=lambda p: p['title'])
+          with open('posts.json', 'w', encoding='utf-8') as fp:
+              json.dump(posts, fp, ensure_ascii=False, indent=1)
+          print(f'{len(posts)} posts')
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add posts.json
+          git diff --cached --quiet || (git commit -m "chore: update posts.json" && git push)
