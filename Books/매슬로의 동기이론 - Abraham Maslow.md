@@ -2,7 +2,7 @@
 매슬로의 동기이론
 
 ## 저자 
-[Abraham Maslow](../People/Abraham%20Maslow.md)
+[Abraham Maslow](../Topics/People/Abraham%20Maslow.md)
 
 ## 요약
 
