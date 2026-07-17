@@ -1,5 +1,3 @@
-![Abraham Maslow](https://upload.wikimedia.org/wikipedia/commons/e/e0/Photo_of_Abraham_Harold_Maslow_by_William_Carter_%28cropped%29.jpg)
-
 ## 이름 
 Abraham Maslow (1908~1970, 미국)
 
