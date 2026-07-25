@@ -1,5 +1,10 @@
 [
  {
+  "path": "Topics/Books/매슬로의 동기이론 - Abraham Maslow/1장.md",
+  "title": "1장",
+  "category": "Books"
+ },
+ {
   "path": "Topics/People/Abraham Maslow.md",
   "title": "Abraham Maslow",
   "category": "People"
@@ -20,8 +25,8 @@
   "category": "Psychology"
  },
  {
-  "path": "Topics/Books/매슬로의 동기이론 - Abraham Maslow.md",
-  "title": "매슬로의 동기이론 - Abraham Maslow",
+  "path": "Topics/Books/매슬로의 동기이론 - Abraham Maslow/서론.md",
+  "title": "서론",
   "category": "Books"
  }
 ]
