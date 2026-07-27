@@ -3,7 +3,7 @@
 
 PF(Productive Failure)는 순서를 뒤집은 학습 방식이다. 먼저 풀게 한다 → 실패한다 → 그 다음 설명한다. 
 
-## 만든이 Created by 
+## 만든이 - Created by 
 Manu Kapur 
 
 ## 요약 - Message
@@ -30,7 +30,7 @@ Manu Kapur
 ## 영감 - Insights 
 무언가 배우는 것은 실제로 써먹기 위한 것이다. 그러기 위한 시행착오가 필요한데, 실패로 끝나는 시행착오가 아닌, 때로는 의도된 실패가 더 큰 학습효과를 가져온다.
 
-## 참고 자료 Sources
+## 참고 자료 - Sources
 - [Manu Kapur — Productive Failure, 4 Core Mechanisms](https://www.manukapur.com/productive-failure/)
 - [Kapur & Roll, Productive Failure (chapter)](https://boldscience.org/wp-content/uploads/2025/04/Productive-Failure.pdf)
 - [The Feeling of Learning Can Be a Psychological Illusion — Psychology Today](https://www.psychologytoday.com/us/blog/how-we-learn/202603/the-feeling-of-learning-can-be-a-psychological-illusion)
