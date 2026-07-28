@@ -15,12 +15,28 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 파일이 처음 등록된 커밋 날짜를 얻기 위해 전체 이력 필요
 
       - name: Generate posts.json
         run: |
           python3 - <<'EOF'
-          import json, os
+          import json, os, subprocess
           ROOT = 'Topics'
+
+          def added_date(path):
+              """파일이 처음 추가된 커밋 날짜(YYYY-MM-DD). 없으면 마지막 커밋 날짜."""
+              for args in (['--diff-filter=A', '--follow'], []):
+                  try:
+                      out = subprocess.check_output(
+                          ['git', 'log'] + args + ['-1', '--format=%aI', '--', path],
+                          text=True).strip()
+                  except subprocess.CalledProcessError:
+                      out = ''
+                  if out:
+                      return out[:10]
+              return ''
+
           posts = []
           for root, dirs, files in os.walk(ROOT):
               for f in files:
@@ -29,12 +45,17 @@ jobs:
                       rel = path[len(ROOT) + 1:]
                       parts = rel.split('/')
                       category = parts[0] if len(parts) > 1 else '기타'
+                      group = '/'.join(parts[1:-1]) if len(parts) > 2 else ''
                       posts.append({
                           'path': path,
                           'title': f[:-3],
                           'category': category,
+                          'group': group,
+                          'date': added_date(path),
                       })
-          posts.sort(key=lambda p: p['title'])
+          # 카테고리 → 최신 등록일 순
+          posts.sort(key=lambda p: (p['category'], p['date'] == '', p['date']), reverse=False)
+          posts.sort(key=lambda p: p['category'])
           with open('posts.json', 'w', encoding='utf-8') as fp:
               json.dump(posts, fp, ensure_ascii=False, indent=1)
           print(f'{len(posts)} posts')
