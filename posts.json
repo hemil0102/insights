@@ -1,37 +1,51 @@
 [
  {
-  "path": "Topics/People/Abraham Maslow.md",
-  "title": "Abraham Maslow",
-  "category": "People"
- },
- {
-  "path": "Topics/Management/JTBD(Jobs To Be Done) - Clayton Christensen.md",
-  "title": "JTBD(Jobs To Be Done) - Clayton Christensen",
-  "category": "Management"
- },
- {
-  "path": "Topics/Psychology/Peak-End-Rule - Daniel Kahneman.md",
-  "title": "Peak-End-Rule - Daniel Kahneman",
-  "category": "Psychology"
- },
- {
-  "path": "Topics/Learning/Productive Failure - Manu Kapur.md",
-  "title": "Productive Failure - Manu Kapur",
-  "category": "Learning"
- },
- {
-  "path": "Topics/Psychology/Redemption Sequence - Dan P. McAdams.md",
-  "title": "Redemption Sequence - Dan P. McAdams",
-  "category": "Psychology"
+  "path": "Topics/Books/매슬로의 동기이론 - Abraham Maslow/나. 1장.md",
+  "title": "나. 1장",
+  "category": "Books",
+  "group": "매슬로의 동기이론 - Abraham Maslow",
+  "date": "2026-07-25"
  },
  {
   "path": "Topics/Books/매슬로의 동기이론 - Abraham Maslow/가. 서론.md",
   "title": "가. 서론",
-  "category": "Books"
+  "category": "Books",
+  "group": "매슬로의 동기이론 - Abraham Maslow",
+  "date": "2026-07-25"
  },
  {
-  "path": "Topics/Books/매슬로의 동기이론 - Abraham Maslow/나. 1장.md",
-  "title": "나. 1장",
-  "category": "Books"
+  "path": "Topics/Learning/Productive Failure - Manu Kapur.md",
+  "title": "Productive Failure - Manu Kapur",
+  "category": "Learning",
+  "group": "",
+  "date": "2026-07-25"
+ },
+ {
+  "path": "Topics/Management/JTBD(Jobs To Be Done) - Clayton Christensen.md",
+  "title": "JTBD(Jobs To Be Done) - Clayton Christensen",
+  "category": "Management",
+  "group": "",
+  "date": "2026-07-15"
+ },
+ {
+  "path": "Topics/People/Abraham Maslow.md",
+  "title": "Abraham Maslow",
+  "category": "People",
+  "group": "",
+  "date": "2026-07-17"
+ },
+ {
+  "path": "Topics/Psychology/Redemption Sequence - Dan P. McAdams.md",
+  "title": "Redemption Sequence - Dan P. McAdams",
+  "category": "Psychology",
+  "group": "",
+  "date": "2026-07-28"
+ },
+ {
+  "path": "Topics/Psychology/Peak-End-Rule - Daniel Kahneman.md",
+  "title": "Peak-End-Rule - Daniel Kahneman",
+  "category": "Psychology",
+  "group": "",
+  "date": "2026-07-28"
  }
 ]
