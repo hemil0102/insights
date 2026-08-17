@@ -1,10 +1,24 @@
 [
  {
-  "path": "Topics/Developments/WWDC/영상 기록 템플릿.md",
-  "title": "영상 기록 템플릿",
+  "path": "Topics/Developments/WWDC/2024/RealityKit 오디오로 공간 컴퓨팅 앱 향상하기/기술 데모.md",
+  "title": "기술 데모",
   "category": "Developments",
-  "group": "WWDC",
-  "date": "2026-08-17 13:43"
+  "group": "WWDC/2024/RealityKit 오디오로 공간 컴퓨팅 앱 향상하기",
+  "date": "2026-08-17 13:59"
+ },
+ {
+  "path": "Topics/Developments/WWDC/2024/RealityKit 오디오로 공간 컴퓨팅 앱 향상하기/영상 시청 기록.md",
+  "title": "영상 시청 기록",
+  "category": "Developments",
+  "group": "WWDC/2024/RealityKit 오디오로 공간 컴퓨팅 앱 향상하기",
+  "date": "2026-08-17 13:59"
+ },
+ {
+  "path": "Topics/Developments/WWDC/2024/RealityKit 오디오로 공간 컴퓨팅 앱 향상하기/활용 기술 요약.md",
+  "title": "활용 기술 요약",
+  "category": "Developments",
+  "group": "WWDC/2024/RealityKit 오디오로 공간 컴퓨팅 앱 향상하기",
+  "date": "2026-08-17 13:59"
  },
  {
   "path": "Topics/People/Joseph Eichler.md",
