@@ -1,2 +1,3 @@
 Actions/** filter=git-crypt diff=git-crypt
+Experiences/** filter=git-crypt diff=git-crypt
 .gitattributes !filter !diff
