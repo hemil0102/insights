@@ -1,5 +1,19 @@
 [
  {
+  "path": "Topics/Books/마침내 특이점이 시작된다 - 레이 커즈와일/1장 - 우리는 여섯 단계 중 어디에 있는가?.md",
+  "title": "1장 - 우리는 여섯 단계 중 어디에 있는가?",
+  "category": "Books",
+  "group": "마침내 특이점이 시작된다 - 레이 커즈와일",
+  "date": "2026-09-11 22:10"
+ },
+ {
+  "path": "Topics/People/Alan Turing.md",
+  "title": "Alan Turing",
+  "category": "People",
+  "group": "",
+  "date": "2026-09-11 22:10"
+ },
+ {
   "path": "Topics/Books/매슬로의 동기이론 - Abraham Maslow/다. 2장.md",
   "title": "다. 2장",
   "category": "Books",
@@ -67,6 +81,13 @@
   "title": "감상문",
   "category": "Books",
   "group": "Make to Know - Lorne M. Buchman",
+  "date": "2026-08-17 13:59"
+ },
+ {
+  "path": "Topics/Books/마침내 특이점이 시작된다 - 레이 커즈와일/2장 - 지능의 재발명.md",
+  "title": "2장 - 지능의 재발명",
+  "category": "Books",
+  "group": "마침내 특이점이 시작된다 - 레이 커즈와일",
   "date": "2026-08-17 13:59"
  },
  {
